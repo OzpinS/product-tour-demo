@@ -1,0 +1,6 @@
+.custom-class-1 .shepherd-header,
+.custom-class-1 .shepherd-text,
+.custom-class-1 .shepherd-footer {
+  background-color: #555555 !important;
+  color: #fff !important;
+}

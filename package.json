@@ -1,0 +1,25 @@
+{
+  "name": "product-tour-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:i": "npm run start --workspace=introjs-demo",
+    "start:s": "npm run start --workspace=shepherdjs-demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OzpinS/product-tour-demo.git"
+  },
+  "keywords": [],
+  "author": "Ozpin <Ozpin.Shi@splashtop.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OzpinS/product-tour-demo/issues"
+  },
+  "homepage": "https://github.com/OzpinS/product-tour-demo#readme"
+}
